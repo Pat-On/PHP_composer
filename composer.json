@@ -5,8 +5,10 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Paton\\PhpComposer\\": "src/"
-        }
+            "App\\": "src/"
+        },
+        "classmap": ["classes/", "library/"],
+        "files": ["config/database.php"]
     },
     "authors": [
         {
@@ -16,5 +18,8 @@
     ],
     "require": {
         "nesbot/carbon": "^2.65"
+    },
+    "require-dev": {
+        "filp/whoops": "^2.14"
     }
 }
