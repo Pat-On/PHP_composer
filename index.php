@@ -7,35 +7,16 @@ $errorHandler = new Whoops\Run;
 $errorHandler->pushHandler(new Whoops\Handler\PrettyPageHandler);
 $errorHandler->register();
 
-use App\Book;
-use App\TextBook;
-use App\Model\Model;
-
-new Book();
-echo "<br />";
-new TextBook();
-echo "<br />";
-
-new Model();
-
-// require __DIR__ . "/classes/Move.php";
-// require __DIR__ . "/library/Lib.php";
-
-use Carbon\Carbon;
-
-$today = Carbon::now();
-
-// composer dump-autoload
-// composer dump-autoload -o
-var_dump($today->tzName . "\n");
-echo "\n";
-var_dump($today->toDateTimeString());
 
 
-echo "<br />";
-new Lib();
-echo "<br />";
-new Move();
+use Devscreencast\ResponseClass\JsonResponse;
 
-echo "<br />";
-connect();
+
+$student = array(
+    'name' => 'John Doe',
+    'course' => 'Software Engineering',
+    "level" => "200",
+    "collections" => ["books" => "Intro to UML", "music"=> "rap"]
+);
+
+new JsonResponse("ok", "", $student);
