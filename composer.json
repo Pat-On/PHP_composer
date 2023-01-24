@@ -1,5 +1,5 @@
 {
-    "name": "Vikings/json-response",
+    "name": "vikings/json-response",
     "description": "A simple class that returns a properly formatted json response with http status",
     "keywords": [
         "Json",
