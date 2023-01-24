@@ -9,7 +9,7 @@ $errorHandler->register();
 
 
 
-use Devscreencast\ResponseClass\JsonResponse;
+use Vikings\ResponseClass\JsonResponse;
 
 
 $student = array(

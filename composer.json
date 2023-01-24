@@ -1,5 +1,5 @@
 {
-    "name": "devscreencast/json-response",
+    "name": "Vikings/json-response",
     "description": "A simple class that returns a properly formatted json response with http status",
     "keywords": [
         "Json",
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Devscreencast\\ResponseClass\\": "src/"
+            "Vikings\\ResponseClass\\": "src/"
         }
     },
     "authors": [

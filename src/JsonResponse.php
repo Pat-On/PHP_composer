@@ -1,6 +1,6 @@
 <?php
 
-namespace Devscreencast\ResponseClass;
+namespace Vikings\ResponseClass;
 
 class JsonResponse
 {
